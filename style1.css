@@ -1,0 +1,71 @@
+
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+}
+
+.intro {
+    /*background-size: 100%;
+    background-repeat: no-repeat;*/
+}
+
+@media (min-width: 768px) {
+    .intro {
+        display: flex;
+    }
+
+    .city {
+        display: flex;
+    }
+
+    .subjects {
+        display: flex;
+    }
+
+    .places {
+        display: flex;
+    }
+}
+
+body {
+    background-color: lightsalmon;
+}
+
+.subject {
+    border: 1px solid;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.place {
+    border: 1px solid;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.portugal {
+    /*border: 1px solid;*/
+    padding: 1em;
+    margin: 1em;
+    /*border-radius: 1em;*/
+}
+
+.Bongane {
+    padding: 1em;
+    margin: 1em;
+    align-content: center;
+    /*border: 1px solid;*/
+    /*border-radius: 1em;*/
+}
+
+h1 {
+    text-align: center;
+}
